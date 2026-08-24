@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-assisted-assortment-optimization"
+version = "0.1.0"
+description = "Synthetic retail assortment optimization using machine-learning demand estimates and mixed-integer optimization."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "scipy>=1.11",
+  "joblib>=1.3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
