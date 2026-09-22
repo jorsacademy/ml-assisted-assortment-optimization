@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dynamic-pricing-revenue-management-rl"
+version = "0.1.0"
+description = "Dynamic pricing and capacity-constrained revenue management with reinforcement learning"
+requires-python = ">=3.10"
+dependencies = [
+  "gymnasium>=0.29,<2",
+  "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+rl = ["stable-baselines3>=2.3,<3"]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
