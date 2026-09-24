@@ -1,4 +1,18 @@
-# ML-Assisted Assortment Optimization
+# Pricing and Revenue Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`apparel-markdown-optimization-lp`](projects/apparel-markdown-optimization-lp/)
+- [`causal-pricing-promotion-nonlinear-optimization-python`](projects/causal-pricing-promotion-nonlinear-optimization-python/)
+- [`dynamic-pricing-revenue-management-rl`](projects/dynamic-pricing-revenue-management-rl/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 A reproducible research project demonstrating how machine-learning demand estimates can feed a mixed-integer assortment optimization model.
 
